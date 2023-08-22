@@ -1,0 +1,154 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background to add contrast */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding-left: 60px;
+  color: #333;
+  position: relative; /* Add this line to your existing body styles */
+}
+
+main {
+  text-align: left;
+  max-width: 800px;
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start; /* Align the items to the start */
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 10% 70%;
+  transform: rotate(270deg);
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align the content to the start */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.1em; /* Reduce the space below the title */
+  font-weight: bold; /* Make the title bold */
+}
+
+h1 span {
+  color: #6c63ff;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align the details to the start */
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #666;
+  font-weight: normal;
+  margin-bottom: 1em; /* Reduce the space below the description */
+  line-height: 1.5; /* Improve readability */
+}
+
+.highlight {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.highlight:hover {
+  color: #4b4b7f;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* Align the icons vertically */
+}
+
+.fa {
+  padding: 0;
+  font-size: 24px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 2px;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.fa:hover {
+  transform: scale(1.2);
+}
+.resume-button {
+  position: absolute;
+  top: 3vh; /* Adjust as needed */
+  right: 3vw; /* Adjust as needed */
+  padding: 1.7vh 2vw;
+  font-size: 1em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6c63ff;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.resume-button:hover {
+  background-color: #4b4b7f;
+}
+
+.resume-button:hover {
+  background-color: #4b4b7f;
+}
+
+.resume-button:hover {
+  background-color: #4b4b7f;
+  transform: scale(1.05); /* Add a subtle zoom effect on hover */
+}
+
+.contact-button {
+  position: absolute;
+  top: 20px;
+  right: 150px; /* Adjust this value as needed */
+  padding: 10px 20px;
+  font-size: 1em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #6c63ff;
+  border-radius: 35px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #4b4b7f;
+}
+
+.coffee-chat-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #6c63ff;
+  font-size: 1em;
+  transition: color 0.3s ease;
+}
+
+.coffee-chat-link:hover {
+  color: #4b4b7f;
+}
+
+
